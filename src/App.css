@@ -1,0 +1,104 @@
+@font-face
+{
+	font-family: 'KarlaTitle';
+	src: url('./fonts/Karla/Karla-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: 'Karla';
+	src: url('./fonts/Karla/Karla-Regular.ttf');
+}
+
+html, body 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#appBackground
+{
+	min-height: 100vh;
+	position: relative;
+}
+
+#root
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div
+{
+	text-align: center;
+}
+
+
+
+h1,
+h2
+{
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'KarlaTitle';
+}
+
+h1
+{
+	color: white;
+	font-size: 5em;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #2B6E86;
+}
+
+.navButton
+{
+    display: inline-block;
+    border: none;
+   	padding-top: 20px;
+   	padding-bottom: 20px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Karla';
+    background-color: #2B6E86;
+    color: #ffffff;
+    flex: 1;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.navButton:hover
+{
+	background-color: #317B96;
+}
+
+header
+{
+	background: #8ECEDA;
+	height: 45vh;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+p
+{
+	font-family: 'Karla';
+}
+
+footer
+{
+    background-color: #2B6E86;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 20px;
+    width: 97.08vw;
+    position: absolute;
+   	bottom: 0;
+}

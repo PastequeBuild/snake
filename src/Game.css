@@ -1,0 +1,35 @@
+#gameBackground
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100vh; 
+	background-color: #2B6E86;
+}
+
+#gameHeader
+{
+	height: 8vh;
+	background-color: #2B6E86;
+}
+
+#canvas
+{
+	background-color: #8ECEDA;
+}
+
+#score
+{
+	margin: 0px;
+	padding: 10px;
+	color: white;
+	font-variant: small-caps;
+	text-align: center;
+	font-family: georgia, monospace;
+	font-size: 150%;
+}
+
+#quitButton
+{
+	margin: 5px;
+	padding: 10px;
+}
